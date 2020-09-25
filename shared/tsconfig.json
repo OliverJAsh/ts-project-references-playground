@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "../target-tsc-build/",
+    "rootDir": ".."
+  },
+  "files": ["./index.ts"]
+}
