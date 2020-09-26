@@ -1,13 +1,16 @@
 {
-    "compilerOptions": {
-      "outDir": "../target-tsc-build/",
-      "rootDir": ".."
-    },
-    "files": ["./index.ts"],
-    "references": [
-        {
-            "path": "../shared/tsconfig.json"
-        }
-    ]
-  }
-  
+  "compilerOptions": {
+    "outDir": "../target-tsc-build/",
+    "rootDir": "..",
+    "baseUrl": "./",
+    "paths": {
+      "shared/*": ["../shared/*"]
+    }
+  },
+  "files": ["a.ts", "b.ts"],
+  "references": [
+    {
+      "path": "../shared/tsconfig.json"
+    }
+  ]
+}

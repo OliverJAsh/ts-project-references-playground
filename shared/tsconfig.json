@@ -4,5 +4,5 @@
     "outDir": "../target-tsc-build/",
     "rootDir": ".."
   },
-  "files": ["./index.ts"]
+  "files": ["main.ts"]
 }
