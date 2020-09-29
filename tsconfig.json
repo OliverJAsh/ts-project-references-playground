@@ -4,7 +4,7 @@
       "path": "./shared/tsconfig.json"
     },
     {
-      "path": "./webpack/tsconfig.json"
+      "path": "./server/tsconfig.json"
     }
   ],
   "files": []
