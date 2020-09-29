@@ -1,1 +1,1 @@
-export const a = 1;
+export const FileContainer = { file: File };

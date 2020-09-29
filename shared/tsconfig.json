@@ -2,7 +2,8 @@
   "compilerOptions": {
     "composite": true,
     "outDir": "../target-tsc-build/",
-    "rootDir": ".."
+    "rootDir": "..",
+    "lib": ["DOM", "ES2015"]
   },
   "files": ["./index.ts"]
 }

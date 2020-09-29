@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
       "outDir": "../target-tsc-build/",
-      "rootDir": ".."
+      "rootDir": "..",
+      "lib": ["ES2015"]
     },
     "files": ["./index.ts"],
     "references": [
